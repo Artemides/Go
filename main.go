@@ -3,8 +3,6 @@ package main
 import (
 	"errors"
 	"fmt"
-
-	"github.com/Artemides/Go/greet"
 )
 
 func main() {
@@ -124,8 +122,7 @@ func main() {
 	divi(10, 3)
 	divi(10, 0)
 	divi(10, 4)*/
-	greet.English()
-
+	greet.Greek()
 }
 func divi(dividendo, divisor int) {
 	validar(divisor)

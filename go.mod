@@ -1,3 +1,3 @@
-module github.com/Artemides/CursoGo
+module github.com/Artemides/Go
 
 go 1.16
