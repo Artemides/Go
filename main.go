@@ -3,6 +3,8 @@ package main
 import (
 	"errors"
 	"fmt"
+
+	"github.com/Artemides/Go/greet"
 )
 
 func main() {
@@ -118,10 +120,12 @@ func main() {
 	}
 	fmt.Printf("Bits escritos: %v", bits)*/
 	//PANIC
-	divi(10, 2)
+	/*divi(10, 2)
 	divi(10, 3)
 	divi(10, 0)
-	divi(10, 4)
+	divi(10, 4)*/
+	greet.English()
+
 }
 func divi(dividendo, divisor int) {
 	validar(divisor)
